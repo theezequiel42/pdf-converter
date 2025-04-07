@@ -18,7 +18,7 @@ The repository contains a single Python script:
 2. Install the required dependencies:
 
 ```bash
-pip install PyPDF2 Pillow PyMuPDF
+pip install PyPDF2 Pillow PyMuPDF PyQt6 pdf2docx
 ```
 
 ### Getting Started
@@ -50,6 +50,27 @@ This will launch the graphical user interface with buttons for each available fu
    - Select the PDF file you want to convert.
    - Choose a directory to save the extracted images.
    - Each page of the PDF will be saved as a separate PNG image.
+
+4. **PDF to Word**
+   - Click the "PDF to Word" button.
+   - Select the PDF file you want to convert.
+   - Choose a location to save the resulting DOCX file.
+
+5. **Merge PDFs**
+   - Click the "Merge PDFs" button.
+   - Select multiple PDF files you want to combine.
+   - Choose a location to save the merged PDF.
+
+6. **Protect PDF**
+   - Click the "Protect PDF with Password" button.
+   - Select the PDF file.
+   - Enter a password to protect the document.
+   - Choose a location to save the protected PDF.
+
+7. **Compress PDF**
+   - Click the "Compress PDF" button.
+   - Select the PDF file you want to compress.
+   - Choose a location to save the compressed version.
 
 ### Troubleshooting
 
